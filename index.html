@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Генератор Мемів</h1>
+    <button id="load-meme">Показати мем</button>
+    <div id="meme-container">
+        <img id="meme-image" src="" alt="Мем з'явиться тут" style="display:none;">
+    </div>
+    <h1>Генератор Випадкових Відео</h1>
+    <button id="load-video">Показати відео</button>
+    <div id="video-container">
+        <video id="video-element" controls style="display:none; max-width: 100%;"></video>
+    </div>
+    <h1>Генератор Випадкових Поп-Пісень</h1>
+    <button id="load-music">Показати пісню</button>
+    <div id="music-container">
+        <p id="song-title"></p>
+        <audio id="music-element" controls style="display:none;"></audio>
+    </div>
+    <script src="meme.js"></script>
+    <script src="video.js"></script>
+    <script src="pop_music.js"></script>
+</body>
+
+</html>
